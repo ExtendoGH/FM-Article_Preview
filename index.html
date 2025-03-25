@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Article preview component for improving front-end skills by building projects on Frontend Mentor."
+    />
+    <meta
+      name="keywords"
+      content="HTML, CSS, Article, CSS GRID,  Frontend Mentor, Frontend Development"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <article class="container">
+      <img
+        src="images/drawers.jpg"
+        class="main-image"
+        alt="A green cabinet in a stylish modern room"
+      />
+      <div class="description__box">
+        <div class="text-box">
+          <h1 class="heading-1">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p class="paragraph text-small">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div class="profile__box">
+          <div class="profile__info-box">
+            <img
+              src="images/avatar-michelle.jpg"
+              class="profile__image"
+              alt="Profile picture of Michelle Appleton"
+            />
+            <div class="profile__text">
+              <p class="profile__name text-small">Michelle Appleton</p>
+              <p class="profile__date text-small">28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="share">
+            <button class="profile__button" aria-label="Share this article">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="15"
+                height="13"
+                class="profile__share-icon"
+              >
+                <path
+                  fill="currentColor"
+                  d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+                />
+              </svg>
+            </button>
+            <div class="share__popup hidden">
+                <div class="popup-icons">
+                  <p class="popup-text text-small">SHARE</p>
+                  <a class="popup-icon" href="#">
+                    <img src="images/icon-facebook.svg" alt="Facebook icon" />
+                  </a>
+                  <a class="popup-icon" href="#">
+                    <img src="images/icon-twitter.svg" alt="Twitter icon" />
+                  </a>
+                  <a class="popup-icon popup-icon--last" href="#">
+                    <img src="images/icon-pinterest.svg" alt="Pinterest icon" />
+                  </a>
+                </div>
+                <div class="popup-arrow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>
