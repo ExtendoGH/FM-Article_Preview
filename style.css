@@ -192,11 +192,7 @@ body {
         width: 38%;
         object-fit: cover;
     }
-
-    .description__box {
-        padding: 4.1rem 3.6rem;
-    }
-
+    
     .paragraph {
         margin-bottom: 2.4rem;
     }
