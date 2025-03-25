@@ -192,15 +192,11 @@ body {
         width: 38%;
         object-fit: cover;
     }
-    
-    .paragraph {
-        margin-bottom: 2.4rem;
-    }
 
     .profile__box {
         position: static;
+        padding-top: 2.4rem;
     }
-
     .share {
         position: relative;
     }
